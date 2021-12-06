@@ -18,8 +18,8 @@ artists = [artist.getText().strip() for artist in song_artists]
 # print(artists)
 
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
-    client_id="SPOTIPY CLIENT ID",
-    client_secret="SPOTIPY CLIENT SECRET",
+    client_id="YOUR SPOTIPY CLIENT ID",
+    client_secret="YOUR SPOTIPY CLIENT SECRET",
     redirect_uri="http://example.com",
     scope="playlist-modify-private",
     cache_path="token.txt"
